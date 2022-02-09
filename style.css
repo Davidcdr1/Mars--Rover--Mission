@@ -1,0 +1,113 @@
+.body {
+    background-image: url(./images/space.jpg);
+}
+
+.cotainer {
+    display: flex;
+    justify-content: center;
+}
+
+#container-input-initial {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#container-input-movement {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+.input-start {
+    width: 127px;
+}
+
+#container-mars {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url(./images/marte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.image-spacecraft img {
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.cont-img {
+    display: flex;
+}
+
+.cont-img p {
+    margin-top: 210px;
+}
+
+.paragraph {
+    margin-top: 180px;
+    width: 179px;
+    height: 53px;
+    background-color: white;
+    margin-right: 1rem;
+}
+
+.paragraph-spacecraft {
+    margin-top: 3rem;
+    margin-left: -2rem;
+    width: 179px;
+    height: 53px;
+    background-color: white;
+}
+
+.image-astronaut img {
+    margin-top: 15rem;
+    margin-left: 10px;
+}
+
+.img-rover {
+    width: 40px;
+}
+
+.logo-nasa {
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+    margin-left: -12.5rem;
+}
+
+.container-panel-control {
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+    height: 350px;
+}
+
+.panel-control {
+    margin-top: 2rem;
+    margin-left: 11rem;
+    width: 280px;
+    height: 270px;
+    background-image: url(./images/panel-control.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.instructions {
+    margin-left: 5rem;
+    width: 300px;
+    height: auto;
+}
+
+.instructions h3 {
+    margin-left: 3rem;
+}

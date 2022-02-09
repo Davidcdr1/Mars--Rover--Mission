@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="body">
+        <div class="cotainer">
+            <div class="image-astronaut">
+                <div class="cont-img">
+                    <img id="astronaut" src="./images/astronauta.png" style="width: 50px;" alt="">
+                    <div id="astronaut-paragraph" class="paragraph" style="visibility: hidden;">
+                        Hi I'm George Clooney and I'm still lost in space.
+                    </div>
+                </div>
+            </div>
+            <div id="container-mars">
+                <div id="rover" style="visibility: hidden;"><img class="img-rover" src="./images/rover-lunar.png"></div>
+            </div>
+            <div class="image-spacecraft">
+                <div class="cont-img">
+                    <img id="spacecraft" src="./images/nave.png" style="width: 250px;">
+                    <div id="spacecraft-paragraph" class="paragraph-spacecraft">
+                        Today is a good day to conquer the earth!!!!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-nasa">
+        <img src="./images/logo-nasa.png" style="width: 50px; height: 50px;">
+        <h2>Panel Control</h2>
+        <img src="./images/logo-nasa.png" style="width: 50px; height: 50px;">
+    </div>
+    <div class="container-panel-control">
+
+        <div class="panel-control">
+            <div id="container-input-initial">
+                <input id="inputX" type="number" min="0" max="36" placeholder="0..36">
+                <input id="inputY" type="number" min="0" max="36" placeholder="0..36">
+                <button id="buttonPosition" class="btn btn-success" style="height: 29px;
+                width: 107px;
+                align-items: center;
+                display: flex;">set position</button>
+            </div>
+            <div id="container-input-movement" style="visibility: hidden;">
+                <input id="inputM" class="input-start" type="text">
+                <button id="buttonStart" class="btn btn-success" style="height: 29px;
+                width: 107px;
+                justify-content: center;
+                align-items: center;
+                display: flex;">start</button>
+            </div>
+
+        </div>
+        <div class="instructions">
+            <h3>Instructions</h3>
+            <p>The planet Mars has dimensions of 400x400 for better visibility.<br> The rover has dimensions of 40x40.<br> To visualize the rover you have to enter the starting coordinates, and then you can give movement commands.<br> The rover cannot leave
+                the planet, and any command to move it out of the planet will not be executed and an alert will be triggered.<br> The images contain hidden surprises. <br> Enjoy the mission.</p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
